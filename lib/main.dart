@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Testing'),
+          title: const Text('Testing'),
         ),
-        body: SafeArea(
-          child: MyHomePage(title: 'Testing',),
+        body: const SafeArea(
+          child: MyHomePage(title: 'Testing'),
         ),
       ),
       debugShowCheckedModeBanner: false,
